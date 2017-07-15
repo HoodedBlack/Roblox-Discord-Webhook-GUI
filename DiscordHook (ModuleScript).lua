@@ -1,4 +1,4 @@
- local HttpService = game:GetService("HttpService")
+ local HttpService					 = game:GetService("HttpService"); 
  
 local function HttpEnabled()
     local s = pcall(function()
